@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for the API
-const API_URL = 'https://memorease-backend.vercel.app/';
+const API_URL = 'https://memorease-backend.vercel.app/api/flashcards';
 
 // Fetch all flashcards from the API
 export const getFlashcards = async () => {
